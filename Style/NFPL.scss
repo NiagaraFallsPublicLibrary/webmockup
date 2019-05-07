@@ -1,0 +1,404 @@
+/*Colours*/
+$NFPLDarkBlue: #2A3B90;
+$NFPLMediumBlue: #1B75BC;
+$NFPLLightBlue: #219FBC;
+$NFPLGreen: #3BB54A;
+$NFPLLightGreen: #8EC640;
+$NFPLYellowGreen: #D7DF27;
+$NFPLYellow: #FEDD00;
+$NFPLYellowOrange: #FBB042;
+$NFPLLightOrange: #F08C21;
+$NFPLOrange: #FB8420;
+$NFPLRedOrange: #F15A2B;
+$NFPLRedPurple: #BE202E;
+$NFPLPurpleRed: #91288D;
+$NFPLPurple: #662F90;
+
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Hind|Montserrat');
+$NFPLHeaderText: 'Montserrat', sans-serif;
+$NFPLDefaultText: 'Hind', sans-serif;
+
+@media 
+/*only screen and (max-width: 768px)*/
+only screen and (max-width: 975px)
+{
+    .tblMinify{
+        & table, thead, tbody, th, td, tr{
+            display: block;
+        }
+        & thead tr{
+            position: absolute;
+            top: -9999px;
+            left: -9999px;
+        }
+        & th{
+            display: none;
+        }
+        & tr{ 
+            border: 1px solid #ccc;
+        }
+        & td{
+            border: none;
+            position: relative;
+            padding-left: 50%; 
+            border-bottom: 1px solid #ccc;
+            text-align: right;
+        }
+        & td:before{
+            position: absolute;
+            left: 6px;
+            width: 45%; 
+            padding-right: 10px; 
+            white-space: nowrap;
+        }
+        & p{
+            text-align: right;
+        }
+    }
+    .tblHours{
+        & td:nth-of-type(1) { text-align: center !important; background-color: rgba(55,55,55,0.1);  }
+        & td:nth-of-type(2):before { content: "Sunday"; display: flex; }
+        & td:nth-of-type(3):before { content: "Monday"; display: flex; }
+        & td:nth-of-type(4):before { content: "Tuesday"; display: flex; }
+        & td:nth-of-type(5):before { content: "Wednesday"; display: flex; }
+        & td:nth-of-type(6):before { content: "Thursday"; display: flex; }
+        & td:nth-of-type(7):before { content: "Friday"; display: flex; }
+        & td:nth-of-type(8):before { content: "Saturday"; display: flex; }
+    }
+}
+
+body{
+    font-family: $NFPLDefaultText !important;
+}
+
+.colour{
+    height: 115px;
+    width: 115px;
+    color: #fff;
+    padding: 10px;
+    &:hover{
+        background-color: rgba(0,0,0,0.8);
+    }
+    &-list{
+        list-style: none;
+        display: inline-block;
+        margin: 0 auto;
+        & li{
+            display: inline-block;
+        }
+    }
+    &-nav{
+        background-image: linear-gradient(to right, $NFPLLightGreen , $NFPLYellowOrange);
+    }
+    &-opaqueblack{
+        background-color: rgba(0,0,0,0.3);
+    }
+    &-darkblue{
+        background-color: $NFPLDarkBlue;
+        &-border{
+            border-color: $NFPLDarkBlue !important;
+        }
+        &-text{
+            color: $NFPLDarkBlue !important;
+        }
+    }
+    &-mediumblue{
+        background-color: $NFPLMediumBlue;
+        &-border{
+            border-color: $NFPLMediumBlue !important;
+        }
+        &-text{
+            color: $NFPLMediumBlue !important;
+        }
+    }
+    &-lightblue{
+        background-color: $NFPLLightBlue;
+        &-border{
+            border-color: $NFPLLightBlue !important;
+        }
+        &-text{
+            color: $NFPLLightBlue !important;
+        }
+    }
+    &-green{
+        background-color: $NFPLGreen;
+        &-border{
+            border-color: $NFPLGreen !important;
+        }
+        &-text{
+            color: $NFPLGreen !important;
+        }
+    }
+    &-lightgreen{
+        background-color: $NFPLLightGreen;
+        &-border{
+            border-color: $NFPLLightGreen !important;
+        }
+        &-text{
+            color: $NFPLLightGreen !important;
+        }
+    }
+    &-yellowgreen{
+        background-color: $NFPLYellowGreen;
+        &-border{
+            border-color: $NFPLYellowGreen !important;
+        }
+        &-text{
+            color: $NFPLYellowGreen !important;
+        }
+    }
+    &-yellow{
+        background-color: $NFPLYellow;
+        &-border{
+            border-color: $NFPLYellow !important;
+        }
+        &-text{
+            color: $NFPLYellow !important;
+        }
+    }
+    &-yelloworange{
+        background-color: $NFPLYellowOrange;
+        &-border{
+            border-color: $NFPLYellowOrange !important;
+        }
+        &-text{
+            color: $NFPLYellowOrange !important;
+        }
+    }
+    &-lightorange{
+        background-color: $NFPLLightOrange;
+        &-border{
+            border-color: $NFPLLightOrange !important;
+        }
+        &-text{
+            color: $NFPLLightOrange !important;
+        }
+    }
+    &-orange{
+        background-color: $NFPLOrange;
+        &-border{
+            border-color: $NFPLOrange !important;
+        }
+        &-text{
+            color: $NFPLOrange !important;
+        }
+    }
+    &-redorange{
+        background-color: $NFPLRedOrange;
+        &-border{
+            border-color: $NFPLRedOrange !important;
+        }
+        &-text{
+            color: $NFPLRedOrange !important;
+        }
+    }
+    &-redpurple{
+        background-color: $NFPLRedPurple;
+        &-border{
+            border-color: $NFPLRedPurple !important;
+        }
+        &-text{
+            color: $NFPLRedPurple !important;
+        }
+    }
+    &-purplered{
+        background-color: $NFPLPurpleRed;
+        &-border{
+            border-color: $NFPLPurpleRed !important;
+        }
+        &-text{
+            color: $NFPLPurpleRed !important;
+        }
+    }
+    &-purple{
+        background-color: $NFPLPurple;
+        &-border{
+            border-color: $NFPLPurple !important;
+        }
+        &-text{
+            color: $NFPLPurple !important;
+        }
+    }
+    & div{
+        font-size: 10pt;
+    }
+}
+
+.alt-back{
+    background-color: $NFPLPurple;
+    color: #fff;
+}
+
+.btn-NFPL{
+    color: #fff;
+    background-color: $NFPLDarkBlue;
+    border-color: $NFPLDarkBlue;
+    &:hover{
+        background-color: $NFPLMediumBlue;
+        border-color: $NFPLLightBlue;
+    }
+}
+
+.btn-NFPL-alt{
+    color: #fff;
+    background-color: $NFPLDarkBlue;
+    border-color: #fff !important;
+    &:hover{
+        background-color: $NFPLMediumBlue;
+        border-color: $NFPLLightBlue;
+    }
+}
+
+.header-NFPL{
+    color: $NFPLMediumBlue;
+    @at-root{
+        h1#{&} {
+            color: $NFPLDarkBlue !important;
+        }
+        h2#{&} {
+            color: red !important;
+        }
+        h3#{&} {
+            color: $NFPLGreen !important;
+        }
+        h4#{&} {
+            color: $NFPLDarkBlue !important;
+        }
+        h5#{&} {
+            color: $NFPLOrange !important;
+        }
+        h6#{&} {
+            color: $NFPLPurpleRed !important;
+        }
+    }
+}
+
+.social{
+    & div, &  img{
+        width: 72px;
+        height: 72px;
+    }
+}
+
+nav{
+    & .nav-item{
+        font-family: $NFPLDefaultText !important;
+    }
+}
+
+.nav-exp{
+    & .nav-link{
+        height: 40px;
+        text-align: center;
+        color: #fff !important;
+        min-width: 100%;
+    }
+    & .nav-item{
+        min-width: 200px; 
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+    }
+    & .dropdown-menu{
+        margin: 0px !important;
+        border-radius: 0 0 .25rem .25rem;
+        min-width: 200px;
+    }
+    & .dropdown-item.colour-green-text:hover{
+        background-color: $NFPLGreen;
+        color: #fff !important;
+    }
+    & .dropdown-item.colour-mediumblue-text:hover{
+        background-color: $NFPLMediumBlue;
+        color: #fff !important;
+    }
+    & .dropdown-item.colour-darkblue-text:hover{
+        background-color: $NFPLDarkBlue;
+        color: #fff !important;
+    }
+    & .dropdown-item.colour-purple-text:hover{
+        background-color: $NFPLPurple;
+        color: #fff !important;
+    }
+    & .dropdown-item.colour-purplered-text:hover{
+        background-color: $NFPLPurpleRed;
+        color: #fff !important;
+    }
+    & .dropdown-item.colour-redpurple-text:hover{
+        background-color: $NFPLRedPurple;
+        color: #fff !important;
+    }
+}
+
+.nav-part{
+    & .dropdown-menu{
+        background-color: inherit;
+    }
+    & .dropdown-item{
+        color: #fff;
+    }
+}
+
+.nav-full{
+    & .dropdown-item{
+        font-weight: bold;
+    }
+}
+
+.carousel-indicators{
+    bottom: -9px !important;
+}
+.aggregator{
+    height: 150px;
+    border: 1px solid #000;
+    & .aggLeft{
+        height: 100%;
+        float: left;
+        text-align: center;
+        position: relative;
+        border-right: 1px solid #000;
+    }
+    & .aggRight{
+        float: left;
+        
+
+        & .aggTop{
+            height: 25%;
+            text-align: center;
+            background-color: $NFPLPurple;
+            color: #fff;
+            font-size: 18pt;
+        }
+        
+        & .aggBot{
+            height: 75%;
+            overflow: auto;
+        }
+    }
+}
+
+.allCenter{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.titleBar{
+    position: relative;
+    display: initial;
+    & .barTitle{
+        position: absolute;
+        top: 0%;
+        left: 5%;
+        color:#fff;
+        font-weight: bold;
+        font-family: $NFPLHeaderText;
+    }
+}
