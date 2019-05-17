@@ -23,6 +23,7 @@ $NFPLDefaultText: 'Hind', sans-serif;
 
 html, body{
     overflow-x: hidden; 
+    //something is overflowing, we should find and fix it
 }
 body{
     font-family: $NFPLDefaultText !important;
