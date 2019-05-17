@@ -1,72 +1,6 @@
 /*Colours*/
 /*Fonts*/
 @import url("https://fonts.googleapis.com/css?family=Hind|Montserrat");
-@media only screen and (max-width: 975px) {
-  .tblMinify table, .tblMinify thead, .tblMinify tbody, .tblMinify th, .tblMinify td, .tblMinify tr {
-    display: block;
-  }
-  .tblMinify thead tr {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-  }
-  .tblMinify th {
-    display: none;
-  }
-  .tblMinify tr {
-    border: 1px solid #ccc;
-  }
-  .tblMinify td {
-    border: none;
-    position: relative;
-    padding-left: 50%;
-    border-bottom: 1px solid #ccc;
-    text-align: right;
-  }
-  .tblMinify td:before {
-    position: absolute;
-    left: 6px;
-    width: 45%;
-    padding-right: 10px;
-    white-space: nowrap;
-  }
-  .tblMinify p {
-    text-align: right;
-  }
-  .tblHours td:nth-of-type(1) {
-    text-align: center !important;
-    background-color: rgba(55, 55, 55, 0.1);
-  }
-  .tblHours td:nth-of-type(2):before {
-    content: "Sunday";
-    display: flex;
-  }
-  .tblHours td:nth-of-type(3):before {
-    content: "Monday";
-    display: flex;
-  }
-  .tblHours td:nth-of-type(4):before {
-    content: "Tuesday";
-    display: flex;
-  }
-  .tblHours td:nth-of-type(5):before {
-    content: "Wednesday";
-    display: flex;
-  }
-  .tblHours td:nth-of-type(6):before {
-    content: "Thursday";
-    display: flex;
-  }
-  .tblHours td:nth-of-type(7):before {
-    content: "Friday";
-    display: flex;
-  }
-  .tblHours td:nth-of-type(8):before {
-    content: "Saturday";
-    display: flex;
-  }
-}
-
 body {
   font-family: "Hind", sans-serif !important;
 }
@@ -93,7 +27,8 @@ body {
 }
 
 .colour-nav {
-  background-image: linear-gradient(to right, #8EC640, #FBB042);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #8EC640), color-stop(50%, #F08C21));
+  background-image: linear-gradient(left, #8EC640 50%, #F08C21 50%);
 }
 
 .colour-opaqueblack {
@@ -355,7 +290,7 @@ nav .nav-item {
 
 .nav-exp .dropdown-menu {
   margin: 0px !important;
-  border-radius: 0 0 .25rem .25rem;
+  border-radius: 0 0 0 0;
   min-width: 200px;
 }
 
@@ -440,8 +375,8 @@ nav .nav-item {
   position: absolute;
   top: 50%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .titleBar {
@@ -457,3 +392,88 @@ nav .nav-item {
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
 }
+
+@media only screen and (max-width: 975px) {
+  .tblMinify table, .tblMinify thead, .tblMinify tbody, .tblMinify th, .tblMinify td, .tblMinify tr {
+    display: block;
+  }
+  .tblMinify thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+  .tblMinify th {
+    display: none;
+  }
+  .tblMinify tr {
+    border: 1px solid #ccc;
+  }
+  .tblMinify td {
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    border-bottom: 1px solid #ccc;
+    text-align: right;
+  }
+  .tblMinify td:before {
+    position: absolute;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    white-space: nowrap;
+  }
+  .tblMinify p {
+    text-align: right;
+  }
+  .tblHours td:nth-of-type(1) {
+    text-align: center !important;
+    background-color: rgba(55, 55, 55, 0.1);
+  }
+  .tblHours td:nth-of-type(2):before {
+    content: "Sunday";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tblHours td:nth-of-type(3):before {
+    content: "Monday";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tblHours td:nth-of-type(4):before {
+    content: "Tuesday";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tblHours td:nth-of-type(5):before {
+    content: "Wednesday";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tblHours td:nth-of-type(6):before {
+    content: "Thursday";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tblHours td:nth-of-type(7):before {
+    content: "Friday";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .tblHours td:nth-of-type(8):before {
+    content: "Saturday";
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .colour-nav {
+    background-color: #8EC640;
+    background-image: none;
+  }
+}
+/*# sourceMappingURL=NFPL.css.map */
