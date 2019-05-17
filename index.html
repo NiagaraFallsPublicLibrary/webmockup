@@ -44,9 +44,7 @@
         @media (max-width: 1199.98px) {  }
 
 
-        header{
-                min-height:200px;
-            }
+        
             .carousel-item img{
                 max-height:540px;
             }
@@ -180,8 +178,12 @@
 <body >
     <!--Header-->
     <header>
-        <img class="img-fluid" src="Images/NFPL_Logo/Multicolour/Horizontal/Transparent/MULTICOLOUR 2018 horizontal transparent 600px.png"
-            alt="NFPL" />
+        <div id="virtual-navbar">
+            <div id="virtual-navitem">
+                <img  src="Images/NFPL_Logo/Multicolour/Horizontal/Transparent/MULTICOLOUR 2018 horizontal transparent 600px.png"
+                        alt="NFPL" />
+            </div>
+        </div>
     </header>
     <!--Navigation-->
     <nav class="navbar navbar-expand-lg navbar-light colour-nav px-0 py-0 py-lg-0">
@@ -192,6 +194,7 @@
         <div class="nav-exp nav-full collapse navbar-collapse" id="navbarNavDropdown5">
             <ul class="navbar-nav mx-auto">
                 <li class="nav-item dropdown colour-green">
+                    
                     <a class="nav-link text-white" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         <strong>YOUR LIBRARY</strong>

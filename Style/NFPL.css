@@ -393,6 +393,12 @@ nav .nav-item {
   font-family: "Montserrat", sans-serif;
 }
 
+#virtual-navitem {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @media only screen and (max-width: 975px) {
   .tblMinify table, .tblMinify thead, .tblMinify tbody, .tblMinify th, .tblMinify td, .tblMinify tr {
     display: block;
