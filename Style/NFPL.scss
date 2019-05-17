@@ -21,8 +21,12 @@ $NFPLDefaultText: 'Hind', sans-serif;
 
 
 
+html, body{
+    overflow-x: hidden; 
+}
 body{
     font-family: $NFPLDefaultText !important;
+    
 }
 
 .colour{
