@@ -355,10 +355,48 @@ nav{
         font-family: $NFPLHeaderText;
     }
 }
-#virtual-navitem{
-    width: 1200px;
+.floatDown{
+    position: inline-block;    
+
+}
+#virtual-navbar{
+    width:1200px;
     margin-left: auto;
     margin-right:auto;
+}
+#header-right{ 
+    height: 175px;
+    width: 300px;  
+    float: right;
+    
+    position: relative;
+    & #absolute{
+        position: absolute;
+        bottom: 53px;
+        
+        & a{
+            color: $NFPLDarkBlue;
+            display: inline-block;
+            width: 6rem;
+            height: 2rem;
+        }
+        & input[type=text]{
+            width: 250px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        & input[type=image]{
+            width:26px;
+            position: absolute;
+            bottom: 3px;
+            left: 252px;
+        }
+    }
+}
+#virtual-navitem{
+    
+    
 }
 
 @media 
@@ -413,4 +451,5 @@ only screen and (max-width: 975px)
         background-color: $NFPLLightGreen;
         background-image: none;
     }
+
 }

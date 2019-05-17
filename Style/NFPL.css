@@ -393,10 +393,45 @@ nav .nav-item {
   font-family: "Montserrat", sans-serif;
 }
 
-#virtual-navitem {
+.floatDown {
+  position: inline-block;
+}
+
+#virtual-navbar {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+}
+
+#header-right {
+  height: 175px;
+  width: 300px;
+  float: right;
+  position: relative;
+}
+
+#header-right #absolute {
+  position: absolute;
+  bottom: 53px;
+}
+
+#header-right #absolute a {
+  color: #2A3B90;
+  display: inline-block;
+  width: 6rem;
+  height: 2rem;
+}
+
+#header-right #absolute input[type=text] {
+  width: 250px;
+  border-radius: 5px;
+}
+
+#header-right #absolute input[type=image] {
+  width: 26px;
+  position: absolute;
+  bottom: 3px;
+  left: 252px;
 }
 
 @media only screen and (max-width: 975px) {
