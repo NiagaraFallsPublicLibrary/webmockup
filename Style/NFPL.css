@@ -440,7 +440,7 @@ nav .nav-item {
   left: 252px;
 }
 
-@media only screen and (max-width: 975px) {
+@media only screen and (max-width: 995px) {
   .tblMinify table, .tblMinify thead, .tblMinify tbody, .tblMinify th, .tblMinify td, .tblMinify tr {
     display: block;
   }
