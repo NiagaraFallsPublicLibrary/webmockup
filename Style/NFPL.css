@@ -3,6 +3,8 @@
 @import url("https://fonts.googleapis.com/css?family=Hind|Montserrat");
 html, body {
   overflow-x: hidden;
+  max-width: 1920px;
+  margin: 0 auto;
 }
 
 body {

@@ -22,8 +22,9 @@ $NFPLDefaultText: 'Hind', sans-serif;
 
 
 html, body{
-    overflow-x: hidden; 
-    //something is overflowing, we should find and fix it
+    overflow-x: hidden;     //something is overflowing, we should find and fix it  
+    max-width: 1920px;      //this is how large the Image carousel is
+    margin: 0 auto;
 }
 body{
     font-family: $NFPLDefaultText !important;
