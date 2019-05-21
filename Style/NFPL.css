@@ -403,6 +403,10 @@ nav .nav-item {
   position: inline-block;
 }
 
+.picture-links {
+  display: none;
+}
+
 #virtual-navbar {
   width: 1200px;
   margin-left: auto;
@@ -419,6 +423,8 @@ nav .nav-item {
 #header-right #absolute {
   position: absolute;
   bottom: 53px;
+  right: 0px;
+  width: 278px;
 }
 
 #header-right #absolute a {
@@ -539,7 +545,7 @@ nav .nav-item {
     width: 100%;
   }
   #virtual-navitem {
-    height: inherit;
+    height: 150px;
   }
   #virtual-navitem #full-logo {
     display: none;
@@ -547,22 +553,51 @@ nav .nav-item {
   #virtual-navitem #rainbow-waterfall {
     display: inherit;
     width: 260px;
+    position: absolute;
+    top: 83px;
   }
   #header-right {
+    position: relative;
+    right: none;
     float: left;
     height: 75px;
-    width: 100%;
   }
   #header-right #absolute {
     height: 62px;
     top: 0px;
-    width: 100%;
   }
   #header-right #absolute input[type=text] {
     margin-left: 10px;
   }
   #header-right #absolute input[type=image] {
     left: 262px;
+  }
+  #header-right #absolute #Locations-link {
+    padding-left: 10px;
+    width: 35px;
+  }
+}
+
+@media only screen and (max-width: 1202px) {
+  #header-right {
+    position: fixed;
+    right: 15px;
+  }
+  #header-right #absolute a {
+    width: 25px;
+  }
+  .text-links {
+    display: none;
+  }
+  .picture-links {
+    display: inline-block;
+    width: 25px;
+    padding-left: 0px;
+  }
+  img.picture-links.NFPL_Logo {
+    width: 190px;
+    padding-left: 25px;
+    padding-right: 20px;
   }
 }
 /*# sourceMappingURL=NFPL.css.map */
