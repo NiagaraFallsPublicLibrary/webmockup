@@ -404,6 +404,7 @@ nav{
     
     
 }
+#rainbow-waterfall{    display:none;}
 
 @media 
 /*only screen and (max-width: 768px)*/
@@ -457,5 +458,41 @@ only screen and (max-width: 995px) //
         background-color: $NFPLLightGreen;
         background-image: none;
     }
+    #virtual-navbar{
+        width:100%;
+    }
+    #virtual-navitem{
+        #full-logo{ 
+            display: none;
+            
+            
+        }
+        #rainbow-waterfall{    
+            display:inherit;
+            width:260px;
+        }
+
+    }
+    #header-right{
+        float: left; 
+        height: 75px; 
+        width: 100%;
+        #absolute{
+            height:62px;
+            top:0px;
+            width: 100%;
+            & input[type=text]{
+                margin-left:10px;
+                
+                
+            }
+            & input[type=image]{
+                left: 262px;
+                
+            }
+        }
+          
+    }
+    
 
 }
