@@ -401,10 +401,14 @@ nav{
     }
 }
 #virtual-navitem{
-    
+    height: 175px;
     
 }
 #rainbow-waterfall{    display:none;}
+#full-logo{   
+    height: 150px;
+    padding-top: 30px;
+}
 
 @media 
 /*only screen and (max-width: 768px)*/
@@ -462,6 +466,7 @@ only screen and (max-width: 995px) //
         width:100%;
     }
     #virtual-navitem{
+        height: inherit;
         #full-logo{ 
             display: none;
             
