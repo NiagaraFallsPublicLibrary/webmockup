@@ -499,11 +499,16 @@ only screen and (max-width: 995px) //
             }
             & input[type=image]{
                 left: 262px;
-                
+                bottom: 0px;
             }
             #Locations-link{
                 padding-left: 10px;
                 width:35px;
+            }
+
+            #My_account{
+                padding-left:10px;
+                width:40px;
             }
         }
 
@@ -516,8 +521,9 @@ only screen and (max-width: 995px) //
 only screen and (max-width: 1202px)
 {
     #header-right{
-        position: fixed;
-        right: 15px;
+        position: absolute;
+        right: 20px;
+        top:10px;
         & #absolute{
             & a{
                 width: 25px;
@@ -534,7 +540,7 @@ only screen and (max-width: 1202px)
         padding-left: 0px;
     }
     img.picture-links.NFPL_Logo{ 
-        width: 190px;
+        width: 217px;
         padding-left: 25px;
         padding-right: 20px;
     }
