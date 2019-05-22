@@ -399,10 +399,6 @@ nav .nav-item {
   font-family: "Montserrat", sans-serif;
 }
 
-.floatDown {
-  position: inline-block;
-}
-
 .picture-links {
   display: none;
 }
@@ -549,6 +545,9 @@ nav .nav-item {
   .colour-nav {
     background-color: #8EC640;
     background-image: none;
+  }
+  h1.header-NFPL {
+    font-size: 8vw;
   }
   #virtual-navbar {
     width: 100%;

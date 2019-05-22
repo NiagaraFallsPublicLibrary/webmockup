@@ -361,10 +361,8 @@ nav{
         font-family: $NFPLHeaderText;
     }
 }
-.floatDown{
-    position: inline-block;    
 
-}
+
 .picture-links{ display:none;}
 #virtual-navbar{
     max-width:1200px;
@@ -470,6 +468,9 @@ only screen and (max-width: 991px) //
     .colour-nav{
         background-color: $NFPLLightGreen;
         background-image: none;
+    }
+    h1.header-NFPL{
+        font-size:8vw;
     }
     #virtual-navbar{
         width:100%;
