@@ -34,7 +34,7 @@ body {
 
 .colour-nav {
   background-image: -webkit-gradient(linear, left top, right top, color-stop(50%, #8EC640), color-stop(50%, #FBB042));
-  background-image: linear-gradient(left, #8EC640 50%, #FBB042 50%);
+  background-image: linear-gradient(to right, #8EC640 50%, #FBB042 50%);
 }
 
 .colour-opaqueblack {
