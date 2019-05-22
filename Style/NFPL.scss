@@ -367,7 +367,7 @@ nav{
 }
 .picture-links{ display:none;}
 #virtual-navbar{
-    width:1200px;
+    max-width:1200px;
     margin-left: auto;
     margin-right:auto;
 }
@@ -404,17 +404,24 @@ nav{
 }
 #virtual-navitem{
     height: 175px;
-    
 }
 #rainbow-waterfall{    display:none;}
 #full-logo{   
     height: 150px;
     padding-top: 30px;
 }
-
-
 @media
-only screen and (max-width: 995px) //
+only screen and (max-width: 560px)
+{
+    #header-right{
+        height:100px;
+        #absolute{
+            top: 0px;
+        }
+    }
+}
+@media
+only screen and (max-width: 991px) //
 {
     
     .tblMinify{
@@ -483,15 +490,19 @@ only screen and (max-width: 995px) //
 
     }
     #header-right{
-        position: relative;
-        right: none;
-        float: left; 
-        height: 75px; 
+        //position: relative !important;
+        //right: none;
+        //float: right; 
+        //height: 100px; 
         //width: 100%;
+        
         #absolute{
             height:62px;
-            top:0px;
+            //top:0px;
             //width: 100%;
+            a {
+                width: 25px;
+            }
             & input[type=text]{
                 margin-left:10px;
                 
@@ -511,7 +522,20 @@ only screen and (max-width: 995px) //
                 width:40px;
             }
         }
-
+        .text-links{
+            display:none;
+        }
+        
+        .picture-links{ 
+            display:inline-block;
+            width: 25px;
+            padding-left: 0px;
+        }
+        img.picture-links.NFPL_Logo{ 
+            width: 217px;
+            padding-left: 25px;
+            padding-right: 20px;
+        }
           
     }
     
@@ -522,26 +546,8 @@ only screen and (max-width: 1202px)
 {
     #header-right{
         position: absolute;
-        right: 20px;
-        top:10px;
-        & #absolute{
-            & a{
-                width: 25px;
-            }
-        }
-    }
-    .text-links{
-        display:none;
+        right: 20px;        
+        padding-top: 50px;
     }
     
-    .picture-links{ 
-        display:inline-block;
-        width: 25px;
-        padding-left: 0px;
-    }
-    img.picture-links.NFPL_Logo{ 
-        width: 217px;
-        padding-left: 25px;
-        padding-right: 20px;
-    }
 }
