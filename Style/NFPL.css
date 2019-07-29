@@ -268,6 +268,34 @@ h6.header-NFPL {
   color: #91288D !important;
 }
 
+footer {
+  padding: 30px;
+}
+
+footer p.footer-text, footer h5.footer-text {
+  color: #FFF;
+}
+
+footer a {
+  color: white;
+}
+
+footer a a:hover {
+  color: lightgrey;
+}
+
+footer a a:visited {
+  color: lightblue;
+}
+
+footer a a:active {
+  color: lightgrey;
+}
+
+footer div.row footer-outside.div {
+  width: 20%;
+}
+
 .social div, .social img {
   width: 72px;
   height: 72px;
@@ -397,6 +425,62 @@ nav .nav-item {
   color: #fff;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
+}
+
+.pick-overlay-container {
+  position: relative;
+  height: 300px;
+  width: 150px;
+}
+
+.pick-overlay-container :hover {
+  opacity: 0.9;
+  background-color: --dusk-blue;
+}
+
+img.pick-of-month {
+  margin: 5px;
+  height: 300px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  display: inline-block;
+}
+
+img.pick-of-month:hover {
+  opacity: 0.9;
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  border: solid 3px var(--white);
+  background-color: var(--dusk-blue);
+}
+
+div.pick-overlay {
+  border: #000 solid 1px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: .5s ease;
+  transition: .5s ease;
+  background-color: #2A3B90;
+}
+
+div.pick-overlay div.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border: #000 solid 1px;
+}
+
+div.pick-overlay p.pick-shelving-location {
+  position: absolute;
+  bottom: 5px;
+  left: 1em;
 }
 
 .picture-links {

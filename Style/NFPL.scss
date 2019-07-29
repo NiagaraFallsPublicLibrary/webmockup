@@ -232,7 +232,27 @@ body{
         }
     }
 }
-
+footer{
+    padding:30px;
+    
+    p.footer-text, h5.footer-text{
+        color: #FFF;
+    }
+    a{
+        color:white;
+        a:hover{  color:lightgrey;}
+        a:visited{color:lightblue;}
+        a:active{color:lightgrey;}
+    }
+    div.row{
+        footer-outside.div{    width: 20%;     }
+    }
+    //div#footer-right{
+        
+    //}
+    //#footer-centre{}
+    //#footer-left{}
+}
 .social{
     & div, &  img{
         width: 72px;
@@ -359,6 +379,54 @@ nav{
         color:#fff;
         font-weight: bold;
         font-family: $NFPLHeaderText;
+    }
+}
+.pick-overlay-container {
+    position: relative;
+    height: 300px;
+    width: 150px;
+}
+.pick-overlay-container :hover{
+    opacity: 0.9;
+    background-color: --dusk-blue;
+}
+img.pick-of-month{
+    margin: 5px;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);   
+    display: inline-block; 
+}
+img.pick-of-month:hover{
+    opacity: 0.9;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border: solid 3px var(--white);
+    background-color: var(--dusk-blue);
+}
+div.pick-overlay{
+    border: #000 solid 1px ;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: $NFPLDarkBlue;
+    div.centered{
+        position: absolute;
+        top:50%;
+        left:50%;
+        border: #000 solid 1px ;
+    }
+    
+    p.pick-shelving-location{ 
+        position: absolute;
+        bottom: 5px; 
+        left: 1em;
     }
 }
 

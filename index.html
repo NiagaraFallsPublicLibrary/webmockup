@@ -148,9 +148,6 @@
                 margin: 60px 0px 60px 16px;
                 border-radius: 15px;
             }
-            footer{
-                min-height: 350px;
-            }
             .footer-disclaimer{
                 font-size: 12px;
                 font-weight: normal;
@@ -415,7 +412,23 @@
                         </div>
                 </div>
                 <div class="pick-block colour-lightorange col-xs-12 col-lg-9 h-100">
-                    <img class="img-fluid" src="Images/Stock/example10.png" height="480" width="360" style="margin: 15px;"/>
+                    <!--<img class="img-fluid" src="Images/Stock/example10.png" height="480" width="360" style="margin: 15px;"/>-->
+                    <div class="pick-overlay-container">
+                        <img class="pick-of-month" src="https://live.nflibrary.ca/opac/extras/ac/jacket/medium/r/213176" />
+                        <div class="pick-overlay">
+                            <div class="centered">
+                                <p class="pick-title">He Said She Said</p>
+                                <p class="pick-author">Gigi Gorgeous</p>
+                            </div>
+                            <p class="pick-shelving-location">Autobiography</p>
+                        </div>
+                    </div>
+                    
+                    <img class="pick-of-month" src="https://live.nflibrary.ca/opac/extras/ac/jacket/medium/r/213311" />
+                    <img class="pick-of-month" src="https://live.nflibrary.ca/opac/extras/ac/jacket/medium/r/212639" />
+                    <img class="pick-of-month" src="https://live.nflibrary.ca/opac/extras/ac/jacket/medium/r/202405" />
+                    <img class="pick-of-month" src="https://live.nflibrary.ca/opac/extras/ac/jacket/medium/r/205177" />
+                    <!--<img class="img-fluid" src="https://live.nflibrary.ca/opac/extras/ac/jacket/medium/r/201106" />-->
                 </div>
                 <div class="col-xs-12 col-lg-2 col-lg-offset-1 d-none d-lg-block">
                     <div class="div-center">
@@ -474,18 +487,29 @@
     </div></div>
     <!--Footer-->
     
-    <footer class="colour-mediumblue">
+    <footer class="colour-mediumblue">       
         <div class="row">
-            <div style="height:150px;">
-
+            <div id="footer-left" class="footer-outside">
+                <h5 class="footer-text">ABOUT THE LIBRARY</h5>
+                <a class="footer-text" href="https://my.nflibrary.ca/Promise">Customer Promise</a><br>
+                <a class="footer-text" href="https://my.nflibrary.ca/NewHours">Press Releases</a><br>
+                <a class="footer-text" href="https://my.nflibrary.ca/LibraryBoard">Board & Management</a><br>
+                <a class="footer-text" href="https://my.nflibrary.ca/PoliciesAndForms">Library Policies</a><br>
+                <a class="footer-text" href="https://my.nflibrary.ca/TermsOfUse">Terms of Use</a><br>
             </div>
-        </div>
-        <div class="row">
-            <div class="footer-images mx-auto text-center">
+            <div class="footer-images mx-auto text-center" id="footer-centre">
                 <a href="#" alt=""><img src="Images/Assets/NF-White.png" alt="City of Niagara Falls"></a>
                 <a href="#" alt=""><img src="Images/Assets/Ontario-White.png" alt="Ontario"></a>
                 <p class="footer-disclaimer">The Niagara Falls Public Library and it's services are primarily funded by
                     the City of Niagara Falls. <br> Additional funding is provided by the government of Ontario</p>
+            </div>
+            <div id="footer-right" class="footer-outside">
+                <h5 class="footer-text">NIAGARA FALLS PUBLIC LIBRARY</h5>
+                <p class="footer-text">4848 Victoria Avenue<br>
+                        Niagara Falls, Ontario L2E 4C5<br>
+                        CANADA<br>
+                        Telephone 905-356-8080<br> </p>
+                <a 
             </div>
         </div>
     </footer>
