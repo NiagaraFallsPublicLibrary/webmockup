@@ -6,13 +6,13 @@ include '../header.html';
 include 'sidebar.html';
 ?>
 <div style="margin-left:236px">
-    <h1 style="padding: 1em 1em 0em 1em;margin-bottom: 0px;">Audiobooks</h1>
-    <p>These are the services that provide audiobooks</p>
+    <h1 style="padding: 1em 1em 0em 1em;margin-bottom: 0px;">eBooks</h1>
+    <p>These are the services that provide eBooks</p>
 </div>
 
 <?php
-include 'hoopla.html';
 include 'cloudLibrary.html';
+include 'hoopla.html';
 ?>
 </div>
 <?php
