@@ -483,6 +483,22 @@ div.pick-overlay p.pick-shelving-location {
   left: 1em;
 }
 
+a.sidebar {
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  color: white;
+  background-color: #1B75BC;
+  border: 1px solid white;
+}
+
+a.sidebar:hover, a.sidebar.selected {
+  background-color: white;
+  color: #1B75BC;
+  border: 1px solid #1B75BC;
+}
+
 .picture-links {
   display: none;
 }
