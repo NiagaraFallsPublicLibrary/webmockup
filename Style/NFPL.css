@@ -296,6 +296,12 @@ footer div.row footer-outside.div {
   width: 20%;
 }
 
+a.footer-text:hover {
+  background-color: white;
+  color: #1B75BC;
+  text-decoration: none;
+}
+
 .social div, .social img {
   width: 72px;
   height: 72px;

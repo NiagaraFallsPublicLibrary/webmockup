@@ -246,11 +246,12 @@ footer{
     div.row{
         footer-outside.div{    width: 20%;     }
     }
-    //div#footer-right{
-        
-    //}
-    //#footer-centre{}
-    //#footer-left{}
+    
+}
+a.footer-text:hover{
+    background-color: white;
+    color: $NFPLMediumBlue;
+    text-decoration: none;
 }
 .social{
     & div, &  img{
@@ -629,6 +630,7 @@ only screen and (max-width: 991px) //
     
 
 }
+
 @media 
 only screen and (max-width: 1202px)
 {
