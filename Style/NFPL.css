@@ -292,7 +292,7 @@ footer a a:active {
   color: lightgrey;
 }
 
-footer div.row footer-outside.div {
+footer div.row .footer-outside {
   width: 20%;
 }
 
@@ -715,7 +715,7 @@ a.sidebar:hover, a.sidebar.selected {
   }
 }
 
-@media only screen and (max-width: 1027px) {
+@media only screen and (max-width: 1030px) {
   .row {
     width: auto;
     -webkit-box-align: center;
@@ -736,8 +736,8 @@ a.sidebar:hover, a.sidebar.selected {
   div#footer-centre {
     bottom: 0em;
   }
-  .footer-outside, .footer-centre {
-    width: 100%;
+  div.footer-outside, div.footer-centre {
+    width: 100% !important;
   }
 }
 

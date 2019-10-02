@@ -244,7 +244,7 @@ footer{
         a:active{color:lightgrey;}
     }
     div.row{
-        footer-outside.div{    width: 20%;     }
+        .footer-outside{    width: 20%;     }
         div{    margin-top:1em;       }
     }
     
@@ -632,7 +632,7 @@ only screen and (max-width: 991px) //
 
 }
 @media 
-only screen and (max-width: 1027px)
+only screen and (max-width: 1030px)
 {    
     .row{
         width: auto;
@@ -647,8 +647,8 @@ only screen and (max-width: 1027px)
         text-align: center;
     }
     div#footer-centre{ bottom: 0em;}
-    .footer-outside, .footer-centre{
-        width: 100%;
+    div.footer-outside , div.footer-centre {
+        width: 100% !important; 
     }
 }
 @media 
