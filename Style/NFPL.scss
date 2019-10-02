@@ -310,6 +310,10 @@ nav{
         background-color: $NFPLRedPurple;
         color: #fff !important;
     }
+    & .dropdown-item.colour-orange-text:hover{
+        background-color: $NFPLOrange;
+        color: #fff !important;
+    }
 }
 
 .nav-part{
