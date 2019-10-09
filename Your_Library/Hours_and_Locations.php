@@ -3,8 +3,9 @@ include '../header.html';
 ?>
 <div style="width:1204px; margin: auto;min-height: 75%;"">
     <div class="">
-        <div id="col-sm-4">
-            <h1>Hours and Locations</h1>
+        <div class="">
+            <br>
+            <h1 >Hours and Locations</h1>
             <!--<ul>style="float: left; width: 33%;padding-left: 0px;margin-top: 3em;padding-right: 50px;display: block; "
                 <il><a href="#Victoria" class="sidebar">Victoria Avenue Branch</a></il>
                 <il><a href="#Community"class="sidebar">McBain Community Centre</a></il>
