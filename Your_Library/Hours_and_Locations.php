@@ -5,7 +5,7 @@ include '../header.html';
     <div class="">
         <div class="">
             <br>
-            <h1 >Hours and Locations</h1>
+            <h1>Hours & Locations</h1>
             <!--<ul>style="float: left; width: 33%;padding-left: 0px;margin-top: 3em;padding-right: 50px;display: block; "
                 <il><a href="#Victoria" class="sidebar">Victoria Avenue Branch</a></il>
                 <il><a href="#Community"class="sidebar">McBain Community Centre</a></il>
@@ -42,7 +42,7 @@ include '../header.html';
                 </Table>
             </div>
            <div class="col-sm-3">
-                <h3>Services available are;</h3>
+                <h3>Services</h3>
                 <ul>
                     <li>Bookable Rooms</li>
                     <li>Free WiFi</li>
@@ -51,7 +51,7 @@ include '../header.html';
                 </ul>
             </div>
             <div class="col-sm-4">
-                <h3>Address of this location</h3>
+                <h3>Address </h3>
                 <p>4848 Victoria Avenue</br>
                 Niagara Falls, Ontario L2E 4C5</br>
                 Canada</p>  
@@ -87,7 +87,7 @@ include '../header.html';
             </Table>
         </div>
          <div class="col-sm-3">
-                <h3>Services available are;</h3>
+                <h3>Sevices</h3>
                 <ul>
                     <li>Free WiFi</li>
                     <li>Public Computers</li>
@@ -95,7 +95,7 @@ include '../header.html';
                 </ul>
             </div>
             <div class="col-sm-4">
-                <h3>Address of this location</h3>
+                <h3>Address </h3>
                 <p>7150 Montrose Road</br>
                 Niagara Falls ON L2H 3N3</br>
                 Canada</p>  
@@ -131,7 +131,7 @@ include '../header.html';
             </Table>
         </div>
         <div class="col-sm-3">
-                <h3>Services available are;</h3>
+                <h3>Sevices</h3>
                 <ul>
                     <li>Bookable Rooms</li>
                     <li>Free WiFi</li>
@@ -140,7 +140,7 @@ include '../header.html';
                 </ul>
         </div>
         <div class="col-sm-4">
-            <h3>Address of this location</h3>
+            <h3>Address </h3>
             <p>Town and Country Plaza</br>
             3643 Portage Road</br>
             Niagara Falls ON  L2J 2K8</br>
@@ -177,7 +177,7 @@ include '../header.html';
             </Table>
         </div>
         <div class="col-sm-3">
-            <h3>Services available are;</h3>
+            <h3>Sevices</h3>
             <ul>
                 <li>Bookable Rooms</li>
                 <li>Free WiFi</li>
@@ -186,7 +186,7 @@ include '../header.html';
             </ul>
         </div>
         <div class="col-sm-4">
-            <h3>Address of this location</h3>
+            <h3>Address </h3>
             <p>3763 Main Street</br>
             Niagara Falls ON L2G 6B3</br>
             Canada</p>  
@@ -223,14 +223,14 @@ include '../header.html';
             </Table>
         </div>
         <div class="col-sm-3">
-            <h3>Services available are;</h3>
+            <h3>Sevices</h3>
             <ul>
                 <li>Book Drop off</li>
                 <li>Borrow Magazines</li>
             </ul>
         </div>
         <div class="col-sm-4">
-            <h3>Address of this location</h3>
+            <h3>Address </h3>
             <p>5152 Thorold Stone Rd,</br>
             Niagara Falls, ON L2E 0A2</br>
             Canada</p>  
